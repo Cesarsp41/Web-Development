@@ -1,0 +1,80 @@
+<!--Pagina web para practicar el uso de formularios, inputs y fieldsets en HTML-->
+<DOCTYPE html>
+<html lang="en">
+<head>
+    <!--No renderizado-->
+    <title>Formulario de Beca</title>
+</head>
+<body>
+    <main>
+        <!--Seccion 1: Informacion general-->
+        <section>
+            <h1>Informacion general</h1>
+            <!--Form Action missing ***Check how to***-->
+            <form action="">
+                <fieldset>
+                    <legend>Datos personales</legend>
+                    <input required type="text" id="nombre" name="nombre" placeholder="Nombre">
+                    <label for="nombre" >Nombre</label><br><br>
+                    <input required type="text" id="apellido" name="apellido" placeholder="Apellido">
+                    <label for="apellido" >Apellido</label><br><br>
+                    <input required type="email" id="email" name="email" placeholder="Correo Electronico">
+                    <label for="email">Correo Electronico</label><br><br>
+                    <input required type="tel" id="numero" name="numero" placeholder="Numero Telefono">
+                    <label for="numero">Numero de Telefono</label><br><br>
+                    <input required type="date" id="dob" name="dob">
+                    <label for="dob">Fecha de Nacimiento</label>
+                </fieldset>
+            </form>
+        </section>
+        <!--Seccion 2: Informacion estudios-->
+        <section>
+            <h1>Informacion de estudios</h1>
+            <p>Seleccione la o las opciones que apliquen</p>
+            <!--Formulario de escuela-->
+            <form action="">
+                <fieldset>
+                    <legend>Escuela de procedencia</legend>
+                    <input type="radio" id="ceti" name="escuela">
+                    <label for="ceti">CETI</label>
+                    <input type="radio" id="cucei" name="escuela">
+                    <label for="cucei">CUCEI</label>
+                    <input type="radio" id="uvm" name="escuela">
+                    <label for="uvm">UVM</label>
+                    <input type="radio" id="tec" name="escuela">
+                    <label for="tec">TEC De Monterrey</label>
+                    <input type="radio" id="iteso" name="escuela">
+                    <label for="iteso">ITESO</label>
+                </fieldset>
+            </form>
+
+            <form action="">
+                <fieldset>
+                    <legend>Lenguajes de Programacion</legend>
+                    <input type="checkbox" name="lenguajes" id="cpp">
+                    <label for="cpp">C/C++</label>
+                    <input type="checkbox" name="lenguajes" id="java">
+                    <label for="java">Java</label>
+                    <input type="checkbox" name="lenguajes" id="python">
+                    <label for="python">Python</label>
+                    <input type="checkbox" name="lenguajes" id="csharp">
+                    <label for="csharp">C#</label>
+                    <input type="checkbox" name="lenguajes" id="html">
+                    <label for="html">HTML</label>
+                    <input type="checkbox" name="lenguajes" id="css">
+                    <label for="css">CSS</label>
+                    <input type="checkbox" name="lenguajes" id="js">
+                    <label for="js">JavaScript</label>
+                </fieldset>
+            </form>
+            <button type="reset">Reiniciar</button>
+            <button type="submit">Enviar</button>
+        </section>
+    </main>
+    <footer>
+        <p>Cesar Soltero Perez 05/10/2013</p>
+    </footer>
+</body>
+</html>
+
+    
