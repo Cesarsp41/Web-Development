@@ -1,0 +1,24 @@
+#titulos, footer {
+  text-align: center;
+  color: #FFFFFF;
+  background-color: #755D45;
+}
+
+#titulos img {
+  width: 250px;
+  height: 250px;
+}
+
+body {
+  background-color: #DBAE81;
+
+}
+
+a{
+ color: #362B20;
+}
+
+#menuPostres {
+  background-color: #755D45;
+  color: #FFFFFF;
+}
